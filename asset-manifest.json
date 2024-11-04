@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/PortfolioV/static/css/main.f3f7fb14.css",
+    "main.js": "/PortfolioV/static/js/main.7a89f5f6.js",
+    "static/media/logo.png": "/PortfolioV/static/media/logo.4ebf13e08b7f5ab911a9.png",
+    "static/media/main.png": "/PortfolioV/static/media/main.f8f93a8b91211f3afa63.png",
+    "static/media/animaux.png": "/PortfolioV/static/media/animaux.8ba3454fdd84d1bde5a2.png",
+    "static/media/gaming.png": "/PortfolioV/static/media/gaming.61f666a1267899d3d310.png",
+    "static/media/cinema.png": "/PortfolioV/static/media/cinema.a4b2b557d168ead0a2c5.png",
+    "static/media/muscu.png": "/PortfolioV/static/media/muscu.a7e691b80c7723f7b3ce.png",
+    "static/media/frontend.png": "/PortfolioV/static/media/frontend.41b1e30cfa4fcbe3327a.png",
+    "static/media/backend.png": "/PortfolioV/static/media/backend.76771ba7a05806e9bc88.png",
+    "static/media/ninacarducci.webp": "/PortfolioV/static/media/ninacarducci.c976ed445c8efd981efc.webp",
+    "static/media/sophiebluel.webp": "/PortfolioV/static/media/sophiebluel.d32426f82c0d314a890b.webp",
+    "static/media/kasa.webp": "/PortfolioV/static/media/kasa.13ecd4395a04ece14c89.webp",
+    "static/media/booki.webp": "/PortfolioV/static/media/booki.4509057b930fd0446706.webp",
+    "static/media/monvieuxgrimoire.webp": "/PortfolioV/static/media/monvieuxgrimoire.041bfd12f655590ceab6.webp",
+    "static/media/menumaker.webp": "/PortfolioV/static/media/menumaker.11750bf2c39404bb96ff.webp",
+    "index.html": "/PortfolioV/index.html",
+    "main.f3f7fb14.css.map": "/PortfolioV/static/css/main.f3f7fb14.css.map",
+    "main.7a89f5f6.js.map": "/PortfolioV/static/js/main.7a89f5f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3f7fb14.css",
+    "static/js/main.7a89f5f6.js"
+  ]
+}
