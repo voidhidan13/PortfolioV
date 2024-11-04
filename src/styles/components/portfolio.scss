@@ -1,0 +1,14 @@
+@import '../themes/colors.scss';
+
+.portfolio {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(565px, 1fr));
+    gap : 50px;
+
+    @media (max-width: 767.98px) {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,73 @@
+[
+    {
+        "title": "Booki",
+        "picture": "booki.webp",
+        "mission": "Ce projet consiste à intégrer l'interface responsive d'un site d'agence de voyage avec les maquettes Figma et une note de synthèse sur les spécificités du projet.",
+        "tags": [
+            "Implémenter une interface responsive avec HTML et CSS",
+            "Intégrer du contenu conformément à une maquette Figma",
+            "Versionner son projet avec Git et Github"
+        ],
+        "github": "https://github.com/voidhidan13/Projet-2-Booki"
+    },
+    {
+        "title": "Sophie Bluel",
+        "picture": "sophiebluel.webp",
+        "mission": "Ce projet consiste à créer une page web dynamique pour le site internet d'une architecte d'intérieur en utilisant JavaScript et en communiquant avec une API.",
+        "tags": [
+            "Gérer les événements utilisateurs avec JavaScript",
+            "Manipuler les éléments du DOM avec JavaScript",
+            "Récupérer les données utilisateurs dans le JavaScript via des formulaires"
+        ],
+        "github": "https://github.com/voidhidan13/Projet-3-portfolio"
+    },
+    {
+        "title": "Nina Carducci",
+        "picture": "ninacarducci.webp",
+        "mission": "Ce projet consiste à optimiser le référencement d’un site, en améliorant sa performance et son accessibilité.",
+        "tags": [
+            "Optimiser les performances d’un site web",
+            "Débugger un site web grâce aux Chrome DevTools",
+            "Rédiger un cahier de recette pour tester un site"
+        ],
+        "github": "https://github.com/voidhidan13/Projet-4-Debugging"
+    },
+    {
+        "title": "Kasa",
+        "picture": "kasa.webp",
+        "mission": "Ce projet consiste à implémenter le front-end d’une application en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive.",
+        "tags": [
+            "Initialiser une application avec Create React App",
+            "Configurer la navigation entre les pages de l'application avec React Router",
+            "Développer des éléments de l'interface d'un site web grâce à des composants React",
+            "Mettre en œuvre des animations CSS",
+            "Développer une interface web avec Sass"
+        ],
+        "github": "https://github.com/voidhidan13/Projet-5-Kasa"
+    },
+    {
+        "title": "Mon Vieux Grimoire",
+        "picture": "monvieuxgrimoire.webp",
+        "mission": "Ce projet consiste à développer le back-end d'un site de notation de livres.",
+        "tags": [
+            "Implémenter un modèle logique de données conformément à la réglementation avec MongoDB",
+            "Mettre en œuvre des opérations CRUD de manière sécurisée avec Node.js & Express",
+            "Stocker des données de manière sécurisée avec Bcrypt et JWT",
+            "Gestion du téléchargement et de l'optimisation des images"
+        ],
+        "github": "https://github.com/voidhidan13/Projet-6-Backend"
+    },
+    {
+        "title": "Menu Maker",
+        "picture": "menumaker.webp",
+        "mission": "Ce projet consiste à planifier le développement du site web grâce aux maquette, aux spécifications fonctionnelles et aux User Stories du site.",
+        "tags": [
+            "Découper une fonctionnalités en tâches pour préparer le développement",
+            "Mettre en place une méthode de veille technologique sur Feedly",
+            "Présenter la solution technique",
+            "Rédiger les spécifications techniques d'un projet web à partir de besoins fonctionnels",
+            "Suivre le déroulement du projet grâce à Kanban"
+        ],
+        "github": ""
+    }
+]

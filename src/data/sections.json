@@ -1,0 +1,25 @@
+[
+	{	
+		"id": "apropos",
+		"title":"Présentation",
+		"subtitle": "Qui suis-je ?"
+	},
+
+	{	
+		"id": "skills",
+		"title":"Mes compétences",
+		"subtitle": "Savoir-Faire"
+	},
+
+	{	
+		"id": "portfolio",
+		"title":"Réalisations",
+		"subtitle": "Expérience"
+	},
+
+	{	
+		"id": "contact",
+		"title":"Démarrons un projet ensemble",
+		"subtitle": "Contact"
+	}
+]

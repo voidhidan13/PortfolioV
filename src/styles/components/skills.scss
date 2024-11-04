@@ -1,0 +1,80 @@
+@import '../themes/colors.scss';
+
+@keyframes translationX {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(650px);
+    }
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    width: 1160px;
+
+    @media (max-width: 1200px) {
+        width: 732px;
+    }
+
+    @media (max-width: 768px) {
+        width: 350px;
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        gap: 30px;
+
+        &__img{
+            width: 70%;
+            height: auto;
+        }
+
+        &__txt {
+            background-color: $color4;
+            color:$white;
+            padding: 10px;
+            border-radius: 15px;
+        }
+    }
+
+    .flux {
+        display: block;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 600px;
+        background-color: $color4;
+        overflow: hidden;
+        position: absolute;
+        height: 4px;
+
+        @media (max-width: 1200px) {
+            width: 370px;
+            top: 45%;
+        }
+    
+        @media (max-width: 768px) {
+            width: 170px;
+            top: 37%;
+            height: 2px;
+        }
+
+        &:before {
+            content: "";
+            position: absolute;
+            height: 4px;
+            width: 32px;
+            background-color: $color1;
+            top: 0;
+            animation: translationX 2.5s linear infinite alternate;
+        }
+    }
+}

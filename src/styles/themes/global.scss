@@ -1,0 +1,53 @@
+@import 'colors.scss';
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F6F4F2;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+
+    @media (max-width: 768px) {
+        font-size: 24px;
+    }
+
+    @media (max-width: 575.98px) {
+        font-size: 20px;
+    }
+}
+
+p {
+    font-size: 26px;
+
+    @media (max-width: 768px) {
+        font-size: 20px;
+    }
+
+    @media (max-width: 575.98px) {
+        font-size: 18px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.animated-element {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+  
+.animated-element.animate {
+    opacity: 1;
+    transform: translateY(0);
+}

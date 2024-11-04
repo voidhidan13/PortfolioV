@@ -1,0 +1,159 @@
+@import '../themes/colors.scss';
+
+.portfolio-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-modale {
+    width: 565px;
+    height: 270px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    position: relative;
+
+    @media (max-width: 767.98px) {
+        width: 565px;
+        height: 270px;
+    }
+
+    @media (max-width: 575.98px) {
+        width: 335px;
+        height: 160px;
+    }
+
+    .hover-card {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba($color1, 0.9);
+        color: $color4;
+        font-size: 36px;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+
+        &__seemore {
+            color: $color4;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+            gap: 10px;
+        }
+    }
+    
+    &:hover .hover-card {
+        opacity: 1;
+    }
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-height: 80vh;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    outline: none;
+
+    .modale-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: $white;
+        padding: 30px;
+        font-size: 18px;
+        overflow-y: auto;
+        color: $color4;
+    
+        &__title {
+            font-size: 30px;
+            margin: 0;
+            padding-bottom: 20px;
+        }
+    
+        &__projet {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            gap : 20px;
+            width: 100%;
+    
+            &--img {
+                width: 70%;
+                height: auto;
+                object-fit: content;
+            }
+    
+            &--description {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: auto;
+                gap: 20px;
+                margin-bottom: 20px;
+    
+                li {
+                    margin-left: 20px;
+                }
+    
+                a {
+                    text-decoration: underline;
+                }
+            }
+    
+        }
+    
+        &__btn {
+            background: $color4;
+            color: $white;
+            padding: 5px 20px;
+            text-align: center;
+            margin: 0 auto;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 24px;
+        }
+    }
+}
+
+.ReactModal__Overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+    opacity: 0;
+}
