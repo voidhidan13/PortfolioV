@@ -2,7 +2,7 @@ import Typed from 'typed.js';
 
 export function initializeTyped(elementRef) {
   const options = {
-    strings: ['développeusse Web', 'passionnée de jeux videos', 'toujours motivée'],
+    strings: ['développeusse Web', 'passionnée de jeux video', 'toujours motivée'],
     typeSpeed: 50,
     backSpeed: 30,
     backDelay: 1000,
