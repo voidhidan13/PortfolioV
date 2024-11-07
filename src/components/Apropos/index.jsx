@@ -23,8 +23,6 @@ function Apropos() {
         <br/>
         Voici un exemple de quelques projets intéressants <a href="#portfolio">à voir.</a>
         <br/>
-        Vous souhaitez avoir mon CV au format PDF c'est par 
-        <a href="/assets/docs/CV-Voidhidan.pdf" target="_blank" rel="noopener noreferrer"> ici.</a>
       </p>
       
       <div className="passions-icons">

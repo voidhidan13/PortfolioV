@@ -36,8 +36,8 @@ export function initializeCanvasAnimations(canvasId) {
   }
   
   function addClickListeners() {
-    document.addEventListener("touchstart", handleEvent);
-    document.addEventListener("mousedown", handleEvent);
+    document.addEventListener("touchstart", handleEvent, {passive: false});
+    document.addEventListener("mousedown", handleEvent, {passive: false});
   }
 
   function handleEvent(e) {
