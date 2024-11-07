@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioV/static/css/main.f3f7fb14.css",
-    "main.js": "/PortfolioV/static/js/main.eab50360.js",
+    "main.css": "/PortfolioV/static/css/main.396506d2.css",
+    "main.js": "/PortfolioV/static/js/main.62a69ba7.js",
     "static/media/logo.png": "/PortfolioV/static/media/logo.4ebf13e08b7f5ab911a9.png",
     "static/media/main.png": "/PortfolioV/static/media/main.f8f93a8b91211f3afa63.png",
     "static/media/animaux.png": "/PortfolioV/static/media/animaux.8ba3454fdd84d1bde5a2.png",
@@ -17,11 +17,11 @@
     "static/media/monvieuxgrimoire.webp": "/PortfolioV/static/media/monvieuxgrimoire.041bfd12f655590ceab6.webp",
     "static/media/menumaker.webp": "/PortfolioV/static/media/menumaker.11750bf2c39404bb96ff.webp",
     "index.html": "/PortfolioV/index.html",
-    "main.f3f7fb14.css.map": "/PortfolioV/static/css/main.f3f7fb14.css.map",
-    "main.eab50360.js.map": "/PortfolioV/static/js/main.eab50360.js.map"
+    "main.396506d2.css.map": "/PortfolioV/static/css/main.396506d2.css.map",
+    "main.62a69ba7.js.map": "/PortfolioV/static/js/main.62a69ba7.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3f7fb14.css",
-    "static/js/main.eab50360.js"
+    "static/css/main.396506d2.css",
+    "static/js/main.62a69ba7.js"
   ]
 }
