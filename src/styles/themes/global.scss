@@ -9,6 +9,7 @@
 
 body {
     background-color: #F6F4F2;
+    cursor: default;
 }
 
 h2 {
@@ -39,6 +40,10 @@ p {
 a {
     text-decoration: none;
     color: currentColor;
+}
+
+nav a {
+    cursor: pointer;
 }
 
 .animated-element {

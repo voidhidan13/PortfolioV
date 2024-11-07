@@ -61,8 +61,14 @@ header {
   
       @media (max-width: 768px) {
         height: 60px;
-        font-size: 18px;
+        font-size: 16px;
       }
+
+      @media (max-width: 885px) {
+        height: 60px;
+        font-size: 17px;
+      }
+
 
       li {
         list-style: none;

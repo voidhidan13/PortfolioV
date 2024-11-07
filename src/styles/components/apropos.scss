@@ -17,15 +17,17 @@
       flex-wrap: wrap;
       gap: 40px;
       margin-top: 60px;
+      
     }
-  
+    
+    
     .icon {
       width: 250px;
       height: 250px;
   
       @media (max-width: 768px) {
-        width: 150px;
-        height: 1500px;
+        width: 100px;
+        height: 100px;
       }
   
       @media (max-width: 575.98px) {
