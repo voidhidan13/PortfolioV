@@ -13,16 +13,18 @@ function Apropos() {
   return (
     <div className="description animated-element" ref={ref}>
       <p>  
-        Moi, c’est Maeva, <strong>Développeuse Web.</strong>
+      Moi, c’est Maeva, <strong>Développeuse Web.</strong>
+         <br/>
+      Prête à explorer la galaxie du code, armée d’une passion aussi tranchante qu’un sabre laser ! 
         <br/>
-        Prête à explorer la galaxie du code. Mon arme secrète ?
+      Après six années d’engagement dans le médico-social, j’ai pris un nouveau cap avec une formation intensive de 6 mois pour me lancer dans le développement web.
         <br/>
-        Une passion aiguisée comme un sabre laser, pour donner vie à vos projets
-        <br/>
-        dans une galaxie pas si lointaine !
-        <br/>
-        Voici un exemple de quelques projets intéressants <a href="#portfolio">à voir.</a>
-        <br/>
+      Aujourd’hui, je recherche une alternance pour continuer cette aventure, apporter mes compétences et m’enrichir de nouvelles connaissances. 
+       <br/>
+      Ma mission ? Donner vie à vos projets, dans une galaxie pas si lointaine…
+       <br/>
+      Découvrez quelques exemples de projets intéressants <a href="#portfolio">à voir ici.</a>
+       <br/>
       </p>
       
       <div className="passions-icons">
